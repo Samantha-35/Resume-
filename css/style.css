@@ -63,5 +63,35 @@ ul{
     padding: 0;
     list-style: none;
 }
-
-/* 6.40 */
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* CLASS CSS */
+.section-title{
+    position: relative;
+    font-size: var(--h2-font-size);
+    color:red;
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+.section-title ::after{
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+.section{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}

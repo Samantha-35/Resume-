@@ -9,7 +9,7 @@
 }
 :root{
     --first-color:green;
-    --second-color: red;
+    --second-color: rgb(5, 4, 46);
     }
 :root{
 --big-font-size: 2rem;
@@ -75,7 +75,7 @@ img{
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
-    color:red;
+    color:black;
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);
     text-align: center;
@@ -118,5 +118,25 @@ background-color: #fff;
 box-shadow: 0 1px 4px rgb(146, 161,176, 15);
 }
 .nav{
-    height: var;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: var(--font-semi);
+}
+@media screen and (max-width: 768px){
+    .nav_menu{
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 80%;
+        height: 100%;
+        padding: 2rem;  
+        background-color: var(--second-color);
+        transition: .5s;
+    }
+}
+.nav_item{
+    margin-bottom: var(--mb-4);
+    
 }

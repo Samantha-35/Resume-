@@ -138,5 +138,9 @@ box-shadow: 0 1px 4px rgb(146, 161,176, 15);
 }
 .nav_item{
     margin-bottom: var(--mb-4);
-    
 }
+.nav_link{
+    position: relative;
+    color: #fff;
+}
+

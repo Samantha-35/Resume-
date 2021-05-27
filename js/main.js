@@ -1,7 +1,6 @@
 /* menu show */
 const showMenu = (toggleId, navId) =>{
-  
-    const toggle = document.getElementById(toggleId,
+    const toggle = document.getElementById(toggleId),
         nav = document.getElementById (navId)
     
         if(toggle && nav){
@@ -11,8 +10,7 @@ const showMenu = (toggleId, navId) =>{
         }
 }
 
-showMenu('nav-toggle','nav-menu')
-
+showMenu('nav-toggle','nav-menu') 
 // Active and remove menu
 const navLink = document.querySelectorAll('.nav_link')
 

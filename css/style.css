@@ -124,6 +124,11 @@ box-shadow: 0 1px 4px rgb(146, 161,176, 15);
     align-items: center;
     font-weight: var(--font-semi);
 }
+
+.mypicture{
+    border-radius: 50px;
+    size: 50px;
+}
 @media screen and (max-width: 768px){
     .nav_menu{
         position: fixed;
@@ -177,4 +182,17 @@ position: relative;
 /* show menu */
 .show{
     right: 0;
+}
+.contact{
+    /* margin-top: 10px; */
+}
+
+/* HOME */
+.home{
+    height: calc(100vh - 1rem);
+    /* row-gap: 10px; */
+}
+.home_data{
+    /* margin-top: 10px; */
+    align-self: center;
 }

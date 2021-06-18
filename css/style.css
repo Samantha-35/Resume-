@@ -14,7 +14,6 @@
 :root{
 --big-font-size: 2rem;
 --h2-font-size:1.25rem;
---normal-font-size
 }
 
 @media screen and (min-width: 768px){
@@ -322,4 +321,44 @@ margin-bottom: var(--mb-4);
 }
 .skill_js{
     width: 35%;
+}
+.skills_img{
+    border-radius: .5rem;
+}
+.work{
+    text-align: center;
+}
+.work_container{
+    row-gap: 2rem;
+}
+.work_img{
+    box-shadow: 0 4px 25px rgba(14, 39, 49, .15);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.work_img img{
+    transition: 1s;
+    cursor: pointer;
+}
+.work_img img:hover{
+    transform: scale(1.1);
+}
+.contact_input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+}
+.contact_button{
+display: block;
+border: none;
+outline: none;
+font-size: var(--normal-font-size);
+cursor: pointer;
+margin-left: auto;
 }

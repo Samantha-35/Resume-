@@ -301,3 +301,25 @@ margin-bottom: var(--mb-4);
     margin-right: var(--mb-2);
     color: var(--first-color);
 }
+.skills_name{
+    display: flex;
+    align-items: center;
+}
+.skills_bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
+.skill_html{
+    width: 95%;
+}
+.skill_css{
+    width: 85%;
+}
+.skill_js{
+    width: 35%;
+}

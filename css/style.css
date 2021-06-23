@@ -437,7 +437,7 @@ margin-left: auto;
     .about_container{
         grid-template-columns  : repeat(2,1fr);
         align-items: center;
-        text-align: initial;
-        /* display: flex; */
+        text-align: initial; 
+        display: grid;       
     }
 }

@@ -434,10 +434,10 @@ margin-left: auto;
         width: 457px;
         bottom: 15%;
     }
-    .about_container{
+    .about_container {
         grid-template-columns  : repeat(2,1fr);
         align-items: center;
         text-align: initial; 
-        display: grid;       
-    }
+        display: flex;
+        display: grid;       }
 }

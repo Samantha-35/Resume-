@@ -434,10 +434,42 @@ margin-left: auto;
         width: 457px;
         bottom: 15%;
     }
-    .about_container {
+    .about_container{
         grid-template-columns  : repeat(2,1fr);
         align-items: center;
         text-align: initial; 
+        display: grid; 
+    }
+    .skills-container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        text-align: initial; 
+        display: grid; 
+    }
+    .skills_img{
         display: flex;
-        display: grid;       }
+    }
+    .about_img img{
+        width: 300px;
+    }
+    .work_container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr) ;
+        column-gap: 2rem;
+        display: grid   
+    }
+    .contact_container{
+        justify-items: center;
+    }
+
 }
+@media screen and (min-width: 1024px){
+    .bd-grid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home_img{
+        right: 10%;
+    }
+}
+    

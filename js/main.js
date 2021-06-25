@@ -18,8 +18,8 @@ function linkAction(){
     // active link
     navLink.forEach(n => n.classList.remove('active'))
     this.classList.add('active')
-// remove menu mobile 
-    const navMenu = get.getElementById('nav-menu')
+// remove menu mobile   
+    const navMenu = document.getElementById('nav-menu')
     navMenu.classList.remove('show')
 }
 
